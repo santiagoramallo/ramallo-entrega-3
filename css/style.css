@@ -93,6 +93,7 @@ img {
     font-family: "Poppins", sans-serif; }
 
 .section2-titulo {
+  color: white;
   text-align: center; }
 
 .publicidad-home {
@@ -113,104 +114,22 @@ img {
   background-size: cover;
   background-position: center; }
 
-.formulario {
-  margin-top: 2em;
-  margin-bottom: 2em;
-  height: 500px;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
-  .formulario .form-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; }
-    .formulario .form-form p {
-      font-size: 14px;
-      color: #000000; }
-
-.label {
-  color: white; }
-
-.contact_form {
-  width: 460px;
-  height: auto;
-  margin: 80px auto;
-  border-radius: 10px;
-  padding-top: 30px;
-  padding-bottom: 20px;
-  background-color: #fbfbfb;
-  padding-left: 30px; }
-
-input {
-  background-color: #fbfbfb;
-  width: 408px;
-  height: 40px;
-  border-radius: 5px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #b62b00;
-  margin-top: 10px;
-  padding-left: 10px;
-  margin-bottom: 20px; }
-
-textarea {
-  background-color: #fbfbfb;
-  width: 405px;
-  height: 150px;
-  border-radius: 5px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #b62b00;
-  margin-top: 10px;
-  padding-left: 10px;
-  margin-bottom: 20px;
-  padding-top: 15px; }
-
-label {
-  display: block;
-  float: center; }
-
-button {
-  height: 45px;
-  padding-left: 5px;
-  padding-right: 5px;
-  margin-bottom: 20px;
-  margin-top: 10px;
-  text-transform: uppercase;
-  background-color: #b62b00;
-  border-color: #b62b00;
-  border-style: solid;
-  border-radius: 10px;
-  width: 420px;
-  cursor: pointer; }
-  button p {
-    color: #fff; }
-
-h1 {
-  font-size: 39px;
-  text-align: letf;
-  padding-bottom: 20px;
-  color: #ffffff; }
-
-h3 {
-  font-size: 16px;
-  padding-bottom: 30px;
-  color: #0b0b0b; }
-
-.formulario input:focus {
-  outline: 0;
-  border: 1px solid #ff0000; }
-
-.formulario textarea:focus {
-  outline: 0;
-  border: 1px solid #ff0000; }
-
 .conteiner-home {
   background-image: url(/assets/img/fondo.jpg);
   background-repeat: no-repeat;
   background-size: cover; }
+
+.form-title {
+  color: white;
+  text-align: center;
+  padding-top: 40px; }
+
+.formulario {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
 
 .main-noticias {
   width: 100%;
@@ -351,6 +270,15 @@ h3 {
     color: red; }
   .footer-iconos {
     font-size: 1.5rem; }
-  .publicidad-home img:hover {
+  /* Medias queris noticias */
+  .conteiner-home .main-noticias .noticias-container .noticia img {
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px white; }
+  .conteiner-home .main-noticias .noticias-container .noticia img:hover {
     transform: scale(1.1);
-    transition-duration: 1s; } }
+    transition-duration: 1s; }
+  .conteiner-home .main-noticias .noticias-container .noticia p {
+    font-size: 1.5rem;
+    margin-top: 12px; } }

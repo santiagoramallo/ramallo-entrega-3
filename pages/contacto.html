@@ -35,7 +35,7 @@
               <span class="navbar-toggler-icon bg-white border rounded"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-around w-100 bg-dark p-4">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-around w-100 bg-dark p-0">
                 <li class="nav-item">
                   <a class="nav-link active text-light" aria-current="page" href="../index.html">Inicio</a>
                 </li>
@@ -55,39 +55,31 @@
     </header>
     
     <main>
-
-        <div class="contact_form">
-
-            <div class="formulario">      
-              <h1>Formulario de contacto</h1>
-              <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
-
-                  <form class="form-form" action="submeter-formulario.php" method="post">       
-
-                        <p>
-                          <label for="nombre" class="colocar_nombre">Nombre</label>
-                            <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
-                        </p>
-                      
-                        <p>
-                          <label for="email" class="colocar_email">Email</label>
-                            <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
-                        </p>
-                    
-                        <p>
-                          <label for="telefone" class="colocar_telefono">Teléfono</label>
-                            <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
-                        </p>    
-
-                        <p>
-                          <label for="mensaje" class="colocar_mensaje">Mensaje</label>                     
-                            <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
-                        </p>                    
-                      
-                        <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
-                  </form>
-            </div>  
+      <h2 class="form-title">DEJE SU COMENTARIO</h2>
+      <form class="row g-3 formulario">
+        <div class="col-12 formulario">
+            <div class="col-6">
+              <label for="inputEmail4" class="form-label text-white">Nombre y Apellido</label>
+              <input type="name" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-6">
+              <label for="inputEmail4" class="form-label text-white">Email</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-6">
+              <label for="inputAddress" class="form-label text-white">Teléfono</label>
+              <input type="number" class="form-control" id="inputAddress">
+            </div>
+            <div class="col-6">
+              <label for="inputAddress2" class="form-label text-white">Comentario</label>
+              <input type="text" class="form-control" id="inputAddress2" >
+            </div>
+            
+            <div class="col-6">
+              <button type="submit" class="btn btn-primary bg-white text-dark border-0 my-3">Enviar</button>
+            </div>
         </div>
+      </form>
     </main>
     
     <footer>

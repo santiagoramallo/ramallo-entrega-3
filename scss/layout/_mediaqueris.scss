@@ -85,8 +85,32 @@
         .footer-iconos {
             font-size: 1.5rem;
         }
-        .publicidad-home img:hover {
-            transform: scale(1.1);
-            transition-duration: 1s;
+        
+
+        /* Medias queris noticias */
+
+        .conteiner-home{
+            .main-noticias{
+                .noticias-container{
+                    .noticia {
+                        img {
+                            width: 400px;
+                            margin: 0 auto;
+                            border-radius: 10px;
+                            box-shadow: 0px 0px 10px white;
+                            
+                        }
+
+                        img:hover{
+                            transform: scale(1.1);
+                            transition-duration: 1s;    
+                        }
+                        p{
+                           font-size: 1.5rem;
+                           margin-top: 12px; 
+                        }
+                    }
+                }
+            }
         }
     }
