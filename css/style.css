@@ -4,6 +4,11 @@
   padding: 0;
   box-sizing: border-box; }
 
+.conteiner-home {
+  background-image: url(../assets/img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 * {
   margin: 0;
   padding: 0;
@@ -107,17 +112,6 @@ img {
     align-items: center; }
     .publicidad-home .img-publicidad .img-img {
       width: 30%; }
-
-.conteiner-home {
-  background-image: url(/assets/img/fondo.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center; }
-
-.conteiner-home {
-  background-image: url(/assets/img/fondo.jpg);
-  background-repeat: no-repeat;
-  background-size: cover; }
 
 .form-title {
   color: white;
